@@ -191,7 +191,7 @@ class Maze:
     def generateRandomGraph(self):
         #This function generates a random graph of size between 10 and 20 nodes. The weight of each arc is between 1 and 10 and there is a 50% chance that the arc is not present (so is -1.)
         graph = []
-        numberOfNodes = random.randint(30,31)
+        numberOfNodes = random.randint(10,20)
         for i in range(numberOfNodes):
             row = []
             for j in range(numberOfNodes):
